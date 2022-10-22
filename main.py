@@ -6,7 +6,7 @@ def now():
 
 
 def tomorrow():
-	print(f"{datetime.datetime.now() + datetime.timedelta(days=1)}")
+	print(f"Tomorrow - {datetime.datetime.now() + datetime.timedelta(days=1)}")
 
 
 if __name__ == '__main__':
