@@ -2,7 +2,7 @@ import datetime
 
 
 def now():
-	print(f"{datetime.datetime.now()}")
+	print(f"Now - {datetime.datetime.now()}")
 
 
 def tomorrow():
