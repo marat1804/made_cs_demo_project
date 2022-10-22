@@ -6,7 +6,7 @@ def now():
 
 
 def yesterday():
-	print(f"Yesterday - {datetime.datetime.now() + datetime.timedelta(days=1)}")
+	print(f"Yesterday - {datetime.datetime.now() - datetime.timedelta(days=1)}")
 
 
 
