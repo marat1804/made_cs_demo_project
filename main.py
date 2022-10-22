@@ -5,8 +5,8 @@ def now():
 	print(f"Now - {datetime.datetime.now()}")
 
 
-def yesterday():
-	print(f"Yesterday - {datetime.datetime.now() - datetime.timedelta(days=1)}")
+def pre_yesterday():
+	print(f"Yesterday - {datetime.datetime.now() - datetime.timedelta(days=2)}")
 
 
 
