@@ -9,7 +9,6 @@ def pre_yesterday():
 	print(f"Yesterday - {datetime.datetime.now() - datetime.timedelta(days=2)}")
 
 
-
 def tomorrow():
 	print(f"Tomorrow - {datetime.datetime.now() + datetime.timedelta(days=1)}")
 
